@@ -8,15 +8,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "mongoose": "^8.4.0",
     "next": "15.2.4",
     "react": "^18",
     "react-dom": "^18",
-    "mongoose": "^8.4.0"
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/uuid": "^10.0.0",
     "typescript": "^5"
   }
 }

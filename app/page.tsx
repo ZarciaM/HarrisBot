@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect, useCallback } from "react";
-import { v4 as uuid } from "crypto";
+import { v4 as uuid } from "uuid";
 
 interface Message {
   role: "user" | "assistant";
